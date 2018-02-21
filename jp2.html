@@ -15,60 +15,76 @@
         <!--===BODY===-->
  <body>
     <main class="wrapper">
-    <header>
-        <div class="navbar">
-            <h3>JP Web Dev</h3>
-            <ul style="list-style: none;" class="navbar">
-            <li><button type="button" class="nav-button btn btn-info"><a href="#">Navigation</a></button></li>
-            <li><button type="button" class="nav-button btn btn-info"><a href="#">Navigation</a></button></li>
-            <li><button type="button" class="nav-button btn btn-info"><a href="#">Navigation</a></button></li>
-            </ul>
-        </div>
-        <div class="jumbotron">
-            <h1>Jordan Parker</h1>
-            <h2>Devloping the Image of You</h2>
+    <header class="main-header">
+       <div class="contain">
+            <div class="navbar">
+                <h3>JP Web Dev</h3>
+                <ul style="list-style: none;" class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <feature>
-       <div class="feature one">
-           <h2>Jordan Parker?<span> You Don't Know?</span></h2>
-           <p>A man on a mission to help create eye catching webpages, with the ease and comfort of usability. I'm meticulous and insure that I get the best work done for you.</p>
-       </div>
-       <hr class="feature-divider">
-       <div class="feature two">
-           <h2>So What's...<span>Life?</span></h2>
-           <p> Well I'm a nature loving, soulful music searching, all American guy. I tend to work out often, but if there is anyway to tarnish a good workout, you will more than likely find me out dining or in local bar. I'm very much a <span>SOCIAL</span> person, but I love my alone time to work on code, music, or watch a good TV show... maybe...not likely though.</p>
-       </div>
-       <hr class="feature-divider">
-       <div class="feature three">
-           <h2>What Can I do? <span>Just Have a Look Here.</span></h2>
-           <ul>
-               <li>Saxophonist</li>
-               <li>Recording</li>
-               <li>Mixing</li>
-           </ul>
-           <ul>
-               <li>HTML</li>
-               <li>CSS</li>
-               <li>Javascript</li>
-           </ul>
-           <ul>
-               <li>Design</li>
-               <li>Market</li>
-               <li>Social Media</li>
-           </ul>
+      <div class="contain">
+        <div class="name">
+            <h1>Jordan Parker</h1>
+            <h2>Devloping the Image of You</h2>
         </div>
-       
+    
+
+           <div class="feature one">
+              <div class="tagline">
+               <h3>Jordan Parker?<span> You Don't Know?</span></h3>
+               </div>
+               <p>A man on a mission to help create eye catching webpages, with the ease and comfort of usability. I'm meticulous and insure that I get the best work done for you.</p>
+           <hr class="feature-divider">
+           </div>
+           
+           <div class="feature two">
+              <div class="tagline">
+               <h3>So What's...<span>Life?</span></h3>
+               </div>
+               <p> Well I'm a nature loving, soulful music searching, all American guy. I tend to work out often, but if there is anyway to tarnish a good workout, you will more than likely find me out dining or in local bar. I'm very much a <span>SOCIAL</span> person, but I love my alone time to work on code, music, or watch a good TV show... maybe...not likely though.</p>
+        
+           </div>
+           <div class="feature three">
+              <div class="tagline">
+               <h3>What Can I do? <span>Just Have a Look Here.</span></h3>
+                </div>
+                <div class="skills">
+               <ul class="skill-items" style="list-style: none;">
+                   <li>Saxophonist</li>
+                   <li>Recording</li>
+                   <li>Mixing</li>
+               </ul>
+               <ul class="skill-items" style="list-style: none;">
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li>Javascript</li>
+               </ul>
+               <ul class="skill-items" style="list-style: none;">
+                   <li> Responsive Design</li>
+                   <li>Market</li>
+                   <li>Social Media</li>
+               </ul>
+                </div>
+            </div>
+       </div>
         
     </feature>
-    <footer>
-      <div class="footer">
-       <p>
+    </main> <!--/wrapper-->
+    
+    <footer class="clearfix">
+      <div class="main-footer">
+       <span>
            &copy;2018 Coded by Jordan Parker
-       </p>
+       </span>
        <div class="social">
            <h4>Also find me here</h4>
-           <ul>
+           <ul style="list-style: none;">
                <li><a href="#">Facebook</a></li>
                <li><a href="#">Twitter</a></li>
                <li><a href="#">GitHub</a></li>
@@ -81,7 +97,7 @@
 
 
 
-    </main>
+   
 
 
     <!--jQuery first, then bootstrap-->
